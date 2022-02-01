@@ -2,31 +2,43 @@
 <testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="73890" started-at="2022-01-26T21:52:04 IST" finished-at="2022-01-26T21:53:18 IST">
+  <suite name="Failed suite [Suite]" duration-ms="32937" started-at="2022-02-01T11:31:23 IST" finished-at="2022-02-01T11:31:56 IST">
     <groups>
       <group name="smokeTest">
-        <method signature="CreateLeadTest.createLead()[pri:0, instance:DemoTest.CreateLeadTest@5ed828d]" name="createLead" class="DemoTest.CreateLeadTest"/>
+        <method signature="CreateLeadTest.createLead()[pri:0, instance:DemoTest.CreateLeadTest@50d0686]" name="createLead" class="DemoTest.CreateLeadTest"/>
       </group> <!-- smokeTest -->
     </groups>
-    <test name="Test" duration-ms="73890" started-at="2022-01-26T21:52:04 IST" finished-at="2022-01-26T21:53:18 IST">
+    <test name="Test(failed)" duration-ms="32937" started-at="2022-02-01T11:31:23 IST" finished-at="2022-02-01T11:31:56 IST">
       <class name="DemoTest.CreateLeadTest">
-        <test-method status="PASS" signature="configBS()[pri:0, instance:DemoTest.CreateLeadTest@5ed828d]" name="configBS" is-config="true" duration-ms="11" started-at="2022-01-26T21:52:04 IST" finished-at="2022-01-26T21:52:04 IST">
+        <test-method status="PASS" signature="configBS()[pri:0, instance:DemoTest.CreateLeadTest@50d0686]" name="configBS" is-config="true" duration-ms="11" started-at="2022-02-01T11:31:23 IST" finished-at="2022-02-01T11:31:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBS -->
-        <test-method status="PASS" signature="configBC()[pri:0, instance:DemoTest.CreateLeadTest@5ed828d]" name="configBC" is-config="true" duration-ms="21460" started-at="2022-01-26T21:52:04 IST" finished-at="2022-01-26T21:52:26 IST">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:DemoTest.CreateLeadTest@50d0686]" name="configBC" is-config="true" duration-ms="6306" started-at="2022-02-01T11:31:23 IST" finished-at="2022-02-01T11:31:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method status="PASS" signature="configBM()[pri:0, instance:DemoTest.CreateLeadTest@5ed828d]" name="configBM" is-config="true" duration-ms="8611" started-at="2022-01-26T21:52:26 IST" finished-at="2022-01-26T21:52:35 IST">
+        <test-method status="PASS" signature="configBM()[pri:0, instance:DemoTest.CreateLeadTest@50d0686]" name="configBM" is-config="true" duration-ms="4779" started-at="2022-02-01T11:31:29 IST" finished-at="2022-02-01T11:31:34 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method status="PASS" signature="createLead()[pri:0, instance:DemoTest.CreateLeadTest@5ed828d]" name="createLead" duration-ms="43459" started-at="2022-01-26T21:52:35 IST" finished-at="2022-01-26T21:53:18 IST">
+        <test-method status="PASS" signature="createLead()[pri:0, instance:DemoTest.CreateLeadTest@50d0686]" name="createLead" duration-ms="18827" started-at="2022-02-01T11:31:34 IST" finished-at="2022-02-01T11:31:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:DemoTest.CreateLeadTest@50d0686]" name="configAM" is-config="true" duration-ms="2117" started-at="2022-02-01T11:31:53 IST" finished-at="2022-02-01T11:31:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:DemoTest.CreateLeadTest@50d0686]" name="configAC" is-config="true" duration-ms="849" started-at="2022-02-01T11:31:55 IST" finished-at="2022-02-01T11:31:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method status="PASS" signature="configAS()[pri:0, instance:DemoTest.CreateLeadTest@50d0686]" name="configAS" is-config="true" duration-ms="1" started-at="2022-02-01T11:31:56 IST" finished-at="2022-02-01T11:31:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
       </class> <!-- DemoTest.CreateLeadTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Test(failed) -->
+  </suite> <!-- Failed suite [Suite] -->
 </testng-results>

@@ -68,7 +68,7 @@ public class BaseAnnotationClass {
 		
 	}
 	
-	@AfterMethod
+	@AfterMethod(groups = {"smokeTest","regressionTest"})
 	public void configAM()
 	{
 		System.out.println("===Logout from App===");
@@ -76,14 +76,14 @@ public class BaseAnnotationClass {
 		home.Logout();
 	}
 	
-	@AfterClass
+	@AfterClass(groups = {"smokeTest","regressionTest"})
 	public void configAC()
 	{
 		System.out.println("===Close the Browser===");
 		wLib.CloseBrowser(driver);
 	}
 	
-	@AfterSuite
+	@AfterSuite(groups = {"smokeTest","regressionTest"})
 	public void configAS()
 	{
 		System.out.println("===Disconnect from Database===");
